@@ -39,5 +39,3 @@ CREATE TABLE `acq_bbs_board` (
   PRIMARY KEY  (`bid`),
   UNIQUE KEY `skey` (`skey`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1582 DEFAULT CHARSET=utf8;
-
-insert into acq_bbs_board 

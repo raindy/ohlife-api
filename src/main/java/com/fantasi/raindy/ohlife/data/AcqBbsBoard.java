@@ -46,4 +46,8 @@ public class AcqBbsBoard {
 	@ManyToOne
     @JoinColumn(name = "hid", referencedColumnName = "websiteId", nullable = false)
 	private WebsiteInfo websiteInfo;
+	
+	public WebsiteInfo getWebsiteInfo() {
+		return websiteInfo;
+	}
 }

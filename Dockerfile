@@ -9,4 +9,4 @@ RUN mvn install
 # Expost port 80
 EXPOSE 8080
 
-CMD ["java", "-jar", "-Xms128M", "-Xmx128M", "/usr/src/app/target/ohlife-api-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "-Xms200M", "-Xmx200M", "/usr/src/app/target/ohlife-api-0.0.1-SNAPSHOT.jar"]
